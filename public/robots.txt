@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://labelbuz.com/sitemap.xml

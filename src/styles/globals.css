@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Default Theme Palette: Royal Violet (matching user uploaded reference) */
+  :root {
+    --color-brand-50: #f5f3ff;
+    --color-brand-100: #ede9fe;
+    --color-brand-200: #ddd6fe;
+    --color-brand-300: #c4b5fd;
+    --color-brand-400: #a78bfa;
+    --color-brand-500: #8b5cf6;
+    --color-brand-600: #7c3aed;
+    --color-brand-700: #6d28d9;
+    --color-brand-800: #5b21b6;
+    --color-brand-900: #4c1d95;
+    --color-brand-950: #2e1065;
+
+    --color-accent-50: #fdf4ff;
+    --color-accent-500: #d946ef;
+    --color-accent-600: #c026d3;
+
+    --shadow-glow-color: rgba(139, 92, 246, 0.15);
+  }
+
+  /* Preset 2: Indigo Electric */
+  [data-theme="indigo"] {
+    --color-brand-50: #eef2ff;
+    --color-brand-100: #e0e7ff;
+    --color-brand-200: #c7d2fe;
+    --color-brand-300: #a5b4fc;
+    --color-brand-400: #818cf8;
+    --color-brand-500: #6366f1;
+    --color-brand-600: #4f46e5;
+    --color-brand-700: #4338ca;
+    --color-brand-800: #3730a3;
+    --color-brand-900: #312e81;
+    --color-brand-950: #1e1b4b;
+
+    --color-accent-50: #eff6ff;
+    --color-accent-500: #3b82f6;
+    --color-accent-600: #2563eb;
+
+    --shadow-glow-color: rgba(99, 102, 241, 0.15);
+  }
+
+  /* Preset 3: Emerald Future */
+  [data-theme="emerald"] {
+    --color-brand-50: #ecfdf5;
+    --color-brand-100: #d1fae5;
+    --color-brand-200: #a7f3d0;
+    --color-brand-300: #6ee7b7;
+    --color-brand-400: #34d399;
+    --color-brand-500: #10b981;
+    --color-brand-600: #059669;
+    --color-brand-700: #047857;
+    --color-brand-800: #065f46;
+    --color-brand-900: #064e3b;
+    --color-brand-950: #022c22;
+
+    --color-accent-50: #f0fdf4;
+    --color-accent-500: #22c55e;
+    --color-accent-600: #16a34a;
+
+    --shadow-glow-color: rgba(16, 185, 129, 0.15);
+  }
+
+  /* Preset 4: Rose Sunset */
+  [data-theme="rose"] {
+    --color-brand-50: #fff1f2;
+    --color-brand-100: #ffe4e6;
+    --color-brand-200: #fecdd3;
+    --color-brand-300: #fda4af;
+    --color-brand-400: #fb7185;
+    --color-brand-500: #f43f5e;
+    --color-brand-600: #e11d48;
+    --color-brand-700: #be123c;
+    --color-brand-800: #9f1239;
+    --color-brand-900: #881337;
+    --color-brand-950: #4c0519;
+
+    --color-accent-50: #fff7ed;
+    --color-accent-500: #f97316;
+    --color-accent-600: #ea580c;
+
+    --shadow-glow-color: rgba(244, 63, 94, 0.15);
+  }
+
+  /* Preset 5: Ocean Cyan */
+  [data-theme="ocean"] {
+    --color-brand-50: #ecfeff;
+    --color-brand-100: #cffaff;
+    --color-brand-200: #a5f3fc;
+    --color-brand-300: #67e8f9;
+    --color-brand-400: #22d3ee;
+    --color-brand-500: #06b6d4;
+    --color-brand-600: #0891b2;
+    --color-brand-700: #0e7490;
+    --color-brand-800: #155e75;
+    --color-brand-900: #164e63;
+    --color-brand-950: #083344;
+
+    --color-accent-50: #f0f9ff;
+    --color-accent-500: #0284c7;
+    --color-accent-600: #0369a1;
+
+    --shadow-glow-color: rgba(6, 182, 212, 0.15);
+  }
+}
+
+/* Lenis Smooth Scroll CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Glassmorphism custom helpers */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dark .glass-card {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .glass-nav {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.6);
+}
