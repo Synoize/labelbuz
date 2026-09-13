@@ -1,8 +1,8 @@
-import React from 'react';
-import Process from '../components/Process';
-import CtaBanner from '../components/CtaBanner';
-import SEO from '../components/SEO';
-import { Sparkles, Zap, ShieldCheck } from 'lucide-react';
+import React from "react";
+import Process from "../components/Process";
+import CtaBanner from "../components/CtaBanner";
+import SEO from "../components/SEO";
+import { Sparkles, Zap, ShieldCheck } from "lucide-react";
 
 export default function ProcessPage({ onOpenContact }) {
   return (
@@ -24,7 +24,8 @@ export default function ProcessPage({ onOpenContact }) {
               Data-Driven & AI-Powered Engineering
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-2">
-              Every phase is backed by rigorous QA, user testing, continuous integration, and AI performance monitoring.
+              Every phase is backed by rigorous QA, user testing, continuous
+              integration, and AI performance monitoring.
             </p>
           </div>
 
@@ -33,9 +34,12 @@ export default function ProcessPage({ onOpenContact }) {
               <div className="w-10 h-10 rounded-xl bg-brand-100 dark:bg-brand-950 text-brand-600 flex items-center justify-center mb-4">
                 <Zap className="w-5 h-5" />
               </div>
-              <h3 className="text-base font-bold mb-2">Agile & Rapid Iteration</h3>
+              <h3 className="text-base font-bold mb-2">
+                Agile & Rapid Iteration
+              </h3>
               <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-                Weekly sprints, transparent staging deployments, and instant feedback loops so you track progress in real-time.
+                Weekly sprints, transparent staging deployments, and instant
+                feedback loops so you track progress in real-time.
               </p>
             </div>
 
@@ -45,7 +49,8 @@ export default function ProcessPage({ onOpenContact }) {
               </div>
               <h3 className="text-base font-bold mb-2">AI-Enhanced Scaling</h3>
               <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-                We leverage custom generative AI models for instant ad creative variations, automated lead response, and code optimization.
+                We leverage custom generative AI models for instant ad creative
+                variations, automated lead response, and code optimization.
               </p>
             </div>
 
@@ -53,9 +58,12 @@ export default function ProcessPage({ onOpenContact }) {
               <div className="w-10 h-10 rounded-xl bg-brand-100 dark:bg-brand-950 text-brand-600 flex items-center justify-center mb-4">
                 <ShieldCheck className="w-5 h-5" />
               </div>
-              <h3 className="text-base font-bold mb-2">Enterprise Security & Performance</h3>
+              <h3 className="text-base font-bold mb-2">
+                Enterprise Security & Performance
+              </h3>
               <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-                Sub-second page speeds, SOC2/GDPR compliance guidelines, and 99.9% uptime infrastructure.
+                Sub-second page speeds, SOC2/GDPR compliance guidelines, and
+                99.9% uptime infrastructure.
               </p>
             </div>
           </div>
