@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import assets from "../assets/assets";
 import {
   ArrowUp,
   Sparkles,
@@ -24,13 +25,23 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
-            <Link to="/" className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-2xl bg-gradient-to-tr from-brand-600 to-brand-400 flex items-center justify-center text-white font-extrabold text-lg">
-                L
+            <Link to="/" className="flex items-center gap-2.5 group">
+              <img
+                src={assets.logo}
+                alt="LabelBuz"
+                className="theme-logo h-14 w-auto object-contain transition duration-300 group-hover:scale-105"
+              />
+
+              <div className="flex flex-col leading-none">
+                <span className="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white flex items-end gap-1.5">
+                  LabelBuz
+                  <span className="mb-1.5 w-1.5 h-1.5 rounded-full bg-brand-500" />
+                </span>
+
+                <span className="mt-1 text-[9px] text-slate-500 dark:text-slate-400 font-semibold tracking-[0.14em] uppercase">
+                  Businesses to Brands
+                </span>
               </div>
-              <span className="font-extrabold text-2xl tracking-tight text-white">
-                LabelBuz
-              </span>
             </Link>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm font-medium">

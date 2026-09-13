@@ -1,3 +1,5 @@
+import assets from "../assets/assets";
+
 export const portfolioData = [
   {
     id: 1,
@@ -6,8 +8,7 @@ export const portfolioData = [
     client: "The Damini Edit",
     description:
       "Complete multi-vendor marketplace with a seamless shopping experience.",
-    image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.thedaminedit,
     metrics: "Multi-Vendor Marketplace",
     tags: ["E-Commerce", "Multi-Vendor", "Admin Panel", "Payments"],
     link: "https://thedaminiedit.com/",
@@ -20,8 +21,7 @@ export const portfolioData = [
     client: "Bathlux Bathware",
     description:
       "Premium bathware and bathroom accessories e-commerce platform.",
-    image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.bathluxbathware,
     metrics: "Premium E-Commerce Store",
     tags: ["E-Commerce", "Bathware", "Product Catalog", "Online Store"],
     link: "https://bathluxbathware.com/",
@@ -34,8 +34,7 @@ export const portfolioData = [
     client: "Watch Villa",
     description:
       "Wide collection of stylish watches for men and women with automatic, sports, smart and classic collections.",
-    image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.watchvilla,
     metrics: "Complete Watch E-Commerce",
     tags: ["E-Commerce", "Watches", "Product Catalog", "Online Store"],
     link: "https://watchvilla.in/",
@@ -48,8 +47,7 @@ export const portfolioData = [
     client: "Tascons",
     description:
       "Online marketplace for JCB spare parts and heavy equipment products.",
-    image:
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.tascons,
     metrics: "Industrial E-Commerce Platform",
     tags: ["E-Commerce", "JCB Parts", "Industrial", "Online Marketplace"],
     link: "https://tascons.in/",
@@ -62,8 +60,7 @@ export const portfolioData = [
     client: "The Earthence",
     description:
       "Premium makhana, spices and dehydrated food products sourced from certified Indian farms.",
-    image:
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.theearthence,
     metrics: "Premium Food E-Commerce",
     tags: ["E-Commerce", "Food", "D2C", "Organic Products"],
     link: "https://theearthence.com/",
@@ -76,8 +73,7 @@ export const portfolioData = [
     client: "Viral Watches",
     description:
       "Premium watches e-commerce platform with seamless product browsing and secure checkout.",
-    image:
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.viralwatches,
     metrics: "Premium Watch Store",
     tags: ["E-Commerce", "Watches", "Payments", "UI/UX"],
     link: "https://viralwatches.in/",
@@ -90,8 +86,7 @@ export const portfolioData = [
     client: "Trudocs Global",
     description:
       "Easy document services and verification platform with a simple and secure user experience.",
-    image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.trudocsglobal,
     metrics: "Digital Documentation Platform",
     tags: ["Services", "Document Verification", "Digital Platform", "UI/UX"],
     link: "https://trudocsglobal.com/",
@@ -104,8 +99,7 @@ export const portfolioData = [
     client: "The Story Creators",
     description:
       "Photography portfolio showcasing creative work and visual storytelling.",
-    image:
-      "https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.thestorycreators,
     metrics: "Creative Photography Portfolio",
     tags: ["Photography", "Portfolio", "Creative", "UI/UX"],
     link: "https://thestorycreators.photography/",
@@ -118,8 +112,7 @@ export const portfolioData = [
     client: "Big Brands India",
     description:
       "Premium watches e-commerce platform with seamless product browsing and secure checkout.",
-    image:
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.bigbrands,
     metrics: "Premium E-Commerce Store",
     tags: ["E-Commerce", "Watches", "Online Store", "Payments"],
     link: "https://ecom.websolvit.com/",
@@ -132,8 +125,7 @@ export const portfolioData = [
     client: "Appliance Sakhi",
     description:
       "Home appliance services platform with easy service booking and clear service listings.",
-    image:
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.appliancesakhi,
     metrics: "Home Appliance Service Platform",
     tags: ["Services", "Home Appliances", "Booking", "Service Platform"],
     link: "https://appliancesakhi.in/",
@@ -146,8 +138,7 @@ export const portfolioData = [
     client: "Nagare Industries",
     description:
       "Rice manufacturing and export business website showcasing product varieties, quality standards and global supply capabilities.",
-    image:
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.nagare,
     metrics: "Rice Manufacturing & Export",
     tags: ["Business", "Manufacturing", "Export", "Corporate Website"],
     link: "https://nagareindustries.netlify.app/",
@@ -160,8 +151,7 @@ export const portfolioData = [
     client: "Moderix Solutions",
     description:
       "Digital marketing and branding services platform focused on SEO, advertising and social media growth.",
-    image:
-      "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.moderixsolutions,
     metrics: "Digital Marketing Platform",
     tags: ["Digital Marketing", "SEO", "Branding", "Social Media"],
     link: "https://moderixsolutions.netlify.app/",
@@ -174,8 +164,7 @@ export const portfolioData = [
     client: "VSMTechnologies Solutions",
     description:
       "Tech and communication service platform providing SMS, voice solutions, custom IT services and enterprise solutions.",
-    image:
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.vsmtechnologies,
     metrics: "Enterprise Technology Solutions",
     tags: ["IT Services", "SMS", "Voice Solutions", "Enterprise"],
     link: "#",
@@ -188,8 +177,7 @@ export const portfolioData = [
     client: "CIRI UAE",
     description:
       "Corporate UAE-based website designed for global business representation and professional service presentation.",
-    image:
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.ciriuae,
     metrics: "Corporate Business Website",
     tags: ["Business", "Corporate", "UAE", "Professional Services"],
     link: "https://ciriuae.netlify.app/",
@@ -202,8 +190,7 @@ export const portfolioData = [
     client: "AIE Construction",
     description:
       "Construction and infrastructure website showcasing engineering projects, expertise and services.",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80",
+    image: assets.works.aieconstruction,
     metrics: "Construction & Infrastructure",
     tags: [
       "Construction",

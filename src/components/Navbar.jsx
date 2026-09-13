@@ -40,13 +40,13 @@ export default function Navbar({ onOpenContact }) {
             <img
               src={assets.logo}
               alt="LabelBuz"
-              className="h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="theme-logo h-12 w-auto object-contain transition duration-300 group-hover:scale-105"
             />
 
             <div className="flex flex-col leading-none">
-              <span className="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5">
+              <span className="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white flex items-end gap-1.5">
                 LabelBuz
-                <span className="w-1.5 h-1.5 rounded-full bg-brand-500 animate-pulse" />
+                <span className="mb-1.5 w-1.5 h-1.5 rounded-full bg-brand-500" />
               </span>
 
               <span className="mt-1 text-[9px] text-slate-500 dark:text-slate-400 font-semibold tracking-[0.14em] uppercase">
